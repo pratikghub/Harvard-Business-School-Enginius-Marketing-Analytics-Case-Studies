@@ -21,13 +21,14 @@ Master Of Business Analytics, University of Auckland
    - [RQ3: Media Strategy and Advertising](#rq3-media-strategy-and-advertising)  
 5. [Methodology](#methodology)  
 6. [Findings and Analysis](#findings-and-analysis)  
-7. [Strategic Recommendations](#strategic-recommendations)  
-8. [Key Figures and Metrics](#key-figures-and-metrics)  
-9. [References](#references)  
-10. [Appendix](#appendix)  
-11. [License](#license)  
-12. [Acknowledgments](#acknowledgments)  
-13. [Repository Usage](#repository-usage)  
+7. [Strategic Recommendations](#strategic-recommendations)
+8. [Key Skills & Core Competencies](#key-skills-&-core-competencies)
+9. [Key Figures and Metrics](#key-figures-and-metrics)  
+10. [References](#references)  
+11. [Appendix](#appendix)  
+12. [License](#license)  
+13. [Acknowledgments](#acknowledgments)  
+14. [Repository Usage](#repository-usage)  
 
 ---
 
@@ -184,6 +185,21 @@ This repository presents a **Harvard Business School (HBS) case study** on **Hub
 
 ---
 
+## Key Skills & Core Competencies
+
+1. **Marketing Analytics** – Evaluating multi-channel marketing performance, ROI, and campaign effectiveness.
+2. **Customer Acquisition & Retention Analysis** – Measuring metrics like CLV, CAC, churn, trial conversion, and repurchase intent.
+3. **Predictive Modeling** – Applying quantitative and statistical frameworks to forecast customer behavior and investment feasibility.
+4. **Multi-Channel Attribution** – Analyzing the effectiveness of paid, earned, and owned media across online and offline channels.
+5. **Data-Driven Decision Making** – Translating analytics insights into actionable business recommendations.
+6. **Business Strategy & DTC Model Evaluation** – Assessing scalability, product portfolio, and brand positioning.
+7. **Financial Analysis** – Evaluating revenue, gross margin, and investment viability through CLV vs. CAC.
+8. **Media Analytics** – Optimizing spend across social media, digital ads, podcasts, TV, and direct mail.
+9. **Quantitative & Statistical Modeling** – Using frameworks to support data-backed strategic decisions.
+10. **Presentation & Reporting** – Communicating insights effectively for stakeholders, including structured case study analysis.
+
+---
+
 ## Key Figures and Metrics
 
 | Metric | Value | Explanation |
@@ -230,12 +246,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgments
 
-## Acknowledgments
-
 This Case Study Report was completed as part of a **Master’s program project at the [University of Auckland](https://www.auckland.ac.nz/en.html)**.  
 Special thanks to the [University of Auckland](https://www.auckland.ac.nz/en.html) for providing the opportunity to undertake this project and for their invaluable guidance and support.  
 
 I also acknowledge **Harvard Business School Publishing (HBS/HBR/HBI)** for providing access to high-quality case study materials, frameworks, and insights that made this analysis possible. For more information, visit [HBS Student Resources](https://hbsp.harvard.edu/student/).
+
 ---
 
 ## Repository Usage
