@@ -230,9 +230,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgments
 
-This project was completed as part of a **Master’s program project at the University of Auckland**.  
-Special thanks to the University of Auckland for providing the opportunity to undertake this project and for their invaluable guidance and support.  
+## Acknowledgments
 
+This Case Study Report was completed as part of a **Master’s program project at the [University of Auckland](https://www.auckland.ac.nz/en.html)**.  
+Special thanks to the [University of Auckland](https://www.auckland.ac.nz/en.html) for providing the opportunity to undertake this project and for their invaluable guidance and support.  
+
+I also acknowledge **Harvard Business School Publishing (HBS/HBR/HBI)** for providing access to high-quality case study materials, frameworks, and insights that made this analysis possible. For more information, visit [HBS Student Resources](https://hbsp.harvard.edu/student/).
 ---
 
 ## Repository Usage
