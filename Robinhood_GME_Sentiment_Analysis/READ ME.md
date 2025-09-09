@@ -102,10 +102,9 @@ The analysis applied a structured **three-phase text mining pipeline** using the
 ---
 
 ##  Repository Contents
-- `Robinhood_GME_Sentiment_Analysis_Report_2025.pdf` – Full case study report  
-- `Robinhood_GME_Executive_Slides_2025.pdf` – Executive summary for business stakeholders  
-- `Twitter_Sentiment_Data.csv` – Processed dataset (if shared)  
-- `Notebooks/` – Quarto or R scripts for sentiment analysis (if replicated outside Enginius)  
+- `READ ME.md` – Repository documentation and case study details  
+- `RobinhoodCaseAnalysis_.pdf` – Initial uploaded case study file  
+- `Robinhood_Case_Study_.pdf` – Final full case study report   
 
 ---
 
