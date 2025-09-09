@@ -136,7 +136,7 @@ This data-driven approach ensures **scalable growth, user engagement, and profit
 
 ## Acknowledgement
 - Conducted as part of a **Master’s program project** at the **[University of Auckland](https://www.auckland.ac.nz/en.html)**  
-- Special thanks to Enginius Marketing Analytics for providing the tools to conduct conjoint and pricing analysis.
+- Special thanks to **Enginius Marketing Analytics** for providing the tools to conduct conjoint and pricing analysis.
 - Data sourced from **mobile app panel datasets and user review sentiment analysis**  
 
 ---
