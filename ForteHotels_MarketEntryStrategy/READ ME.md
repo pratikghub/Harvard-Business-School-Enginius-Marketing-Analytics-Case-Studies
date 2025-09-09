@@ -162,7 +162,7 @@ Using **part-worth utilities**, three customer segments were identified:
 ## Repository Contents
 
 - `README.md` – Case study overview and methodology  
-- `ForteHotels_MarketEntryAnalysis.pdf` – Final formatted report  
+- `ForteHotels_MarketEntryAnalysis_CaseReport.pdf` – Final formatted report  
 - `ForteHotels_ConjointData.pdf` – Case Study
 
 ---
