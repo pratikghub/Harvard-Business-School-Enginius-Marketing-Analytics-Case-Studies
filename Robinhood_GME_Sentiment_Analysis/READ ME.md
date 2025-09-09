@@ -192,8 +192,8 @@ Proactive PR, app enhancements, and operational transparency are critical for **
 
 ## Acknowledgement
 
-- Completed as part of a **Master’s program project** at **[University of Auckland](https://www.auckland.ac.nz/en.html)**  
-- Thanks to **Enginius Marketing Analytics** for text analytics tools  
+- Completed as part of a **Master’s program project** at the **[University of Auckland](https://www.auckland.ac.nz/en.html)**  
+- Thanks to **Enginius Marketing Analytics** for simulation tools  
 - Data sourced from **Twitter API and curated datasets for GME-related discussions**  
 
 ---
