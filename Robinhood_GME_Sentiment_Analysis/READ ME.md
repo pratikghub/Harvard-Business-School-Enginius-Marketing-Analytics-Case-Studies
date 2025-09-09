@@ -1,119 +1,206 @@
-# Case Study Title : Robinhood GME Sentiment Analysis 
+# Case Study Title: Public Sentiment Analysis of Robinhood Across the GameStop Episode
 
-##  Case Study Overview
-This case study investigates **public sentiment, emotions, and discourse evolution** surrounding **Robinhood’s role in the GameStop (GME) short squeeze of January 2021**. Leveraging **Twitter-based text analytics**, the analysis examines how user perceptions shifted **Before, During, and After** the trading restrictions imposed by Robinhood.  
+## Case Study Overview
+This case study examines **user sentiment and discourse surrounding Robinhood during the GameStop (GME) stock surge in January 2021** using **Twitter-based text analytics**. Robinhood faced intense public scrutiny after restricting trading in GME and other volatile stocks, leading to questions about platform transparency, investor trust, and operational fairness.
 
-The goal is to generate **evidence-based insights** to inform strategies on **trust rebuilding, crisis communication, and platform improvement** in the wake of reputational and regulatory challenges.  
+The study analyzes Twitter data across three phases—**Before**, **During**, and **After** the peak of the GME surge—to uncover trends in sentiment, emotions, and conversation topics. Insights are used to guide **strategic communication, platform modifications, and trust restoration measures**.
+
+**Author:** Pratik Ganguli  
+**Date:** August 16, 2025  
+**University:** University of Auckland  
 
 ---
 
-# Author: 
-Pratik Ganguli
+## Table of Contents
+
+1. [Problem Statement](#problem-statement)  
+2. [Purpose of the Report](#purpose-of-the-report)  
+3. [Methodology](#methodology)  
+   - [Data Collection](#data-collection)  
+   - [Text Analytics Techniques](#text-analytics-techniques)  
+   - [Phase Setup](#phase-setup)  
+4. [Analysis and Results](#analysis-and-results)  
+   - [Phase 1: Before the Surge](#phase-1-before-the-surge)  
+   - [Phase 2: During the Surge](#phase-2-during-the-surge)  
+   - [Phase 3: After the Surge](#phase-3-after-the-surge)  
+5. [Recommendations](#recommendations)  
+6. [Conclusion](#conclusion)  
+7. [Exhibits](#exhibits)  
+8. [Repository Contents](#repository-contents)  
+9. [Acknowledgement](#acknowledgement)  
+10. [Citation](#citation)  
 
 ---
 
-## Problem Statement  
+## Problem Statement
 
-In January 2021, Robinhood faced a severe **trust and reputational crisis** during the GameStop (GME) short squeeze when it imposed **trading restrictions** on retail investors.  
-This move sparked intense **public backlash**, with accusations of siding with hedge funds and undermining market fairness.  
-The lack of transparent communication amplified **user frustration, regulatory scrutiny, and reputational damage**.  
+In January 2021, **Robinhood**, a mobile trading platform aiming to democratize finance, became central to a retail-driven **short squeeze on GameStop (GME)** stock. Key issues included:
 
-Understanding how public **sentiment, emotions, and discourse evolved across the Before–During–After phases** is critical to addressing questions such as:  
-- How did perceptions of Robinhood shift during the crisis?  
-- Which emotions and themes dominated discourse at each stage?  
-- What actionable strategies can be derived for **trust rebuilding, crisis management, and long-term platform credibility**?
+- Restriction of trading in GME and other volatile stocks  
+- Public perception of bias favoring hedge funds over retail investors  
+- Negative media coverage, social media backlash, and regulatory scrutiny  
+- Operational vulnerabilities in settlement and liquidity infrastructure  
+- Concerns about gamified features encouraging risky trading  
+
+Robinhood needed **data-driven insights** to understand user sentiment, emotion, and thematic discourse across the three critical phases of the GME episode.
+
+---
+
+## Purpose of the Report
+
+This report aims to provide **actionable insights** for Robinhood by:
+
+1. Tracking **evolution of user sentiment and emotions** across Before, During, and After phases  
+2. Identifying **dominant topics and themes** in public conversations  
+3. Guiding **strategic PR, app modifications, and operational transparency** initiatives  
+4. Recommending steps to **restore trust, mitigate reputational risk, and enhance platform credibility**
+
+---
+
+## Methodology
+
+### Data Collection
+
+- **Platform:** Twitter  
+- **Timeframes:**  
+  - Before: Jan 12–21, 2021  
+  - During: Jan 22–Feb 1, 2021  
+  - After: Feb 1–11, 2021  
+- **Stop words:** Default + "Robinhood"  
+- **Sample Size:** ~15,000 tweets across all phases  
+- **Categorization:** Tweets divided by phase for temporal analysis  
+
+### Text Analytics Techniques
+
+- **Word Cloud Analysis:** Identifying high-frequency terms  
+- **Sentiment Analysis:** Categorizing tweets as Positive, Neutral, Negative  
+- **Emotion Detection:** Mapping tweets to emotions (trust, anticipation, anger, etc.)  
+- **Parts-of-Speech (POS) Tagging:** Understanding grammatical structure and user focus  
+- **Topic Modeling:** Identifying key discussion themes (5 topics per phase)  
+
+### Phase Setup
+
+| Phase       | Dates           | Objective                                 |
+|------------|----------------|-------------------------------------------|
+| Before     | Jan 12–21      | Baseline sentiment and discourse          |
+| During     | Jan 22–Feb 1   | Crisis response, trading restrictions     |
+| After      | Feb 1–11       | Post-crisis sentiment recovery & trends  |
+
+---
+
+## Analysis and Results
+
+### Phase 1: Before the Surge
+
+- **Word Cloud:** High-frequency terms include `stock, free, join, link, traders, stockstobuy, crypto, bitcoin`  
+- **Sentiment Distribution:** Positive 58%, Neutral 24%, Negative 18%  
+- **Emotion Breakdown:** Trust 24%, Anticipation 16%, Anger 12%, Joy 11%  
+- **POS Analysis:** Nouns 31%, Verbs 23%, Adjectives/Adverbs 8%  
+- **Interpretation:** Largely positive and community-focused discourse emphasizing stock promotion, engagement, and opportunity-seeking  
+
+---
+
+### Phase 2: During the Surge
+
+- **Word Cloud:** Key terms: `gme, gamestop, amc, trading, suspend, halt, citadel, hedge, ceo`  
+- **Sentiment Distribution:** Negative 50%, Neutral 19%, Positive 31%  
+- **Emotion Breakdown:** Trust 20%, Fear 16%, Anger 14%, Anticipation 13%  
+- **POS Analysis:** Focus shifted toward actors, restrictions, and conflict; verbs indicate action and accusations  
+- **Interpretation:** Discourse shifted to frustration, distrust, and scrutiny of institutional actors; sentiment and emotions became volatile  
+
+---
+
+### Phase 3: After the Surge
+
+- **Word Cloud:** Terms include `stock, gamestop, dogecoin, free, join, trading, restrictions, wallstreetbets, ceo`  
+- **Sentiment Distribution:** Positive 43%, Neutral 22%, Negative 34%  
+- **Emotion Breakdown:** Trust 23%, Anticipation 16%, Fear 13%, Anger 12%  
+- **POS Analysis:** Consistent grammatical pattern; adjectives/adverbs richer, reflecting broader discussion of crypto, residual anger, and platform trust  
+- **Interpretation:** Sentiment partially recovered; user focus diversified beyond GME to crypto and ongoing platform concerns  
+
+---
+
+## Recommendations
+
+1. **Strategic PR & Communication:**  
+   - Address trading restrictions and platform transparency  
+   - Educate users on PFOF, settlement processes, and risk management  
+   - Deploy campaigns via social media to rebuild trust  
+
+2. **App Improvements:**  
+   - Trading alerts, enhanced notifications, educational prompts for first-time investors  
+   - Transparent settlement timelines  
+
+3. **Operational Transparency:**  
+   - Centralized information portal for users and regulators  
+   - Continuous monitoring of social media sentiment to identify misinformation  
+
+**Goal:** Restore trust, mitigate reputational risk, and demonstrate a responsible, user-focused approach  
+
+---
+
+## Conclusion
+
+Twitter analysis highlights rapid evolution of public sentiment during the GME episode:
+
+- **Before:** Positive, opportunity-driven discourse  
+- **During:** High negativity, anger, and fear; focus on institutional scrutiny  
+- **After:** Partial recovery with diversified conversation on crypto and platform safety  
+
+Proactive PR, app enhancements, and operational transparency are critical for **trust restoration and future crisis management**.
+
+---
+
+## Exhibits
+
+**Before Phase:**  
+- Exhibit A1 – Word Cloud  
+- Exhibit A2.1 – Sentiment Distribution  
+- Exhibit A2.2 – Valence Histogram  
+- Exhibit A3.1 – Emotion Distribution  
+- Exhibit A3.2 – Emotion Pie Chart  
+- Exhibit A4 – Topic Model Results  
+- Exhibit A5 – POS Distribution  
+
+**During Phase:**  
+- Exhibit B1 – Word Cloud  
+- Exhibit B2.1 – Sentiment Distribution  
+- Exhibit B2.2 – Valence Histogram  
+- Exhibit B3.1 – Emotion Distribution  
+- Exhibit B3.2 – Emotion Pie Chart  
+- Exhibit B4 – Topic Model Results  
+- Exhibit B5 – POS Distribution  
+
+**After Phase:**  
+- Exhibit C1 – Word Cloud  
+- Exhibit C2.1 – Sentiment Distribution  
+- Exhibit C2.2 – Valence Histogram  
+- Exhibit C3.1 – Emotion Distribution  
+- Exhibit C3.2 – Emotion Pie Chart  
+- Exhibit C4 – Topic Model Results  
+- Exhibit C5 – POS Distribution  
+
+---
+
+## Repository Contents
+
+- `READ ME.md` – Repository documentation and case study details  
+- `RobinhoodCaseAnalysis_.pdf` – Initial uploaded case study file  
+- `Robinhood_Case_Study_.pdf` – Final full case study report
   
 ---
 
-##  Research Objectives
-1. **Sentiment & Emotion Evolution**  
-   - Track how **positive, negative, and neutral sentiments** changed across the three phases.  
-   - Identify dominant emotions such as **trust, anger, fear, anticipation**, etc.  
+## Acknowledgement
 
-2. **Discourse Themes & Topics**  
-   - Use **topic modeling, RAKE, and word co-occurrence** to uncover recurring themes.  
-   - Compare **investment chatter (Before)** vs. **conflict-driven discourse (During)** vs. **crypto diversification (After)**.  
-
-3. **Crisis & Trust Implications**  
-   - Understand user reactions to **trading restrictions** and **institutional references (Citadel, hedge funds, SEC)**.  
-   - Recommend **PR, transparency, and app-level improvements** for Robinhood.  
+- Completed as part of a **Master’s program project** at **[University of Auckland](https://www.auckland.ac.nz/en.html)**  
+- Thanks to **Enginius Marketing Analytics** for text analytics tools  
+- Data sourced from **Twitter API and curated datasets for GME-related discussions**  
 
 ---
 
-##  Methodology
-The analysis applied a structured **three-phase text mining pipeline** using the **Enginius Marketing Analytics Platform**:
+## Citation
 
-- **Data Source:** Twitter posts mentioning Robinhood (Jan 12 – Feb 11, 2021)  
-- **Phases:**
-  - **Before:** Jan 12–21 (baseline investor chatter)  
-  - **During:** Jan 22–Feb 1 (peak short squeeze & trading halt)  
-  - **After:** Feb 1–11 (post-crisis discourse, crypto shift)  
-- **Techniques Used:**  
-  - **Word Clouds** – visualize trending terms  
-  - **Sentiment Analysis** – classify tweets into positive, neutral, negative  
-  - **Emotion Detection** – map to NRC emotion lexicon (trust, anger, joy, fear, etc.)  
-  - **Topic Modelling (RAKE, Co-occurrence)** – extract themes across phases  
-  - **Parts-of-Speech (POS) Tagging** – study linguistic structure of tweets  
+Ganguli, P. (2025). *Public Sentiment Analysis of Robinhood Across the GameStop Episode: Twitter-Based Text Analytics for User Emotions and Platform Trust.* University of Auckland.
 
 ---
 
-##  Key Findings
-
-### Phase 1: **Before the Surge**
-- Discourse: Promotional & opportunity-seeking → stocks, trading tips, crypto.  
-- Sentiment: **58% positive**, **18% negative**, **24% neutral**.  
-- Emotions: **Trust (24%)**, **Anticipation (16%)**, **Anger (12%)**.  
-- Interpretation: Users engaged & optimistic, minimal skepticism.  
-
-### Phase 2: **During the Crisis**
-- Discourse: Anger-driven → “restrictions,” “halt,” “Citadel,” “hedge funds.”  
-- Sentiment: **50% negative**, **31% positive**, **19% neutral**.  
-- Emotions: **Fear (16%)**, **Anger (14%)**, **Trust (20%)**.  
-- Interpretation: Public backlash intensified; Robinhood perceived as siding with hedge funds.  
-
-### Phase 3: **After the Peak**
-- Discourse: Diversified → crypto hype (Dogecoin, Bitcoin) + lingering distrust.  
-- Sentiment: **43% positive**, **34% negative**, **22% neutral**.  
-- Emotions: **Trust (23%)**, **Anticipation (16%)**, **Fear (13%)**, **Anger (12%)**.  
-- Interpretation: Partial sentiment recovery, but trust erosion persisted.  
-
----
-
-##  Strategic Insights
-
-###  For Robinhood
-- **Revenue & Trust Balance:** Communicate collateral and settlement constraints transparently.  
-- **PR Strategy:** Address fairness concerns directly during congressional hearings.  
-- **Platform Improvements:** Add **trade alerts, settlement timelines, & education prompts**.  
-
-###  For Regulators
-- Enhanced oversight on **Payment for Order Flow (PFOF)** and **market fairness** disclosures.  
-
-###  For Users & Investors
-- Caution against **platform dependence**; importance of understanding **settlement mechanics**.  
-
----
-
-##  Tools & Techniques
-- **Enginius** – Text analytics (sentiment, emotion, topic modeling)  
-- **Corpus:** For sentiment and emotion analysis, the **Eniginius inbuilt corpus** was utilized. No external lexicons (e.g., NRC, Bing) were applied in this case study.
-- **Analytics Methods:** Word Clouds, RAKE, Co-occurrence, Topic Modeling, POS Tagging  
-
----
-
-##  Repository Contents
-- `READ ME.md` – Repository documentation and case study details  
-- `RobinhoodCaseAnalysis_.pdf` – Initial uploaded case study file  
-- `Robinhood_Case_Study_.pdf` – Final full case study report   
-
----
-
-##  Acknowledgement
-- This case study was completed as part of a **Master’s program project** at the **[University of Auckland](https://www.auckland.ac.nz/en.html)**. 
-- Special thanks to **Enginius Marketing Analytics** for providing both the platform to conduct advanced text analytics and the case study itself.  
-- Data sourced from **Twitter** (publicly available posts, 2021).  
-
----
-
-## 📝 Citation
-Ganguli, P. (2025). *Public Sentiment Analysis of Robinhood Across the GameStop Episode: A Twitter-Based Text Analytics Case Study.* University of Auckland.  
