@@ -96,7 +96,7 @@ The analysis applied a structured **three-phase text mining pipeline** using the
 ---
 
 ##  Acknowledgement
-- This case study was completed as part of a **Master’s program project at the **[University of Auckland](https://www.auckland.ac.nz/en.html).**  
+- This case study was completed as part of a **Master’s program project at the *[University of Auckland](https://www.auckland.ac.nz/en.html).**  
 - Special thanks to **Enginius Marketing Analytics** for providing the platform to conduct advanced text analytics.  
 - Data sourced from **Twitter** (publicly available posts, 2021).  
 
