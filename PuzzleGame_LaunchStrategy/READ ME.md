@@ -130,7 +130,8 @@ This data-driven approach ensures **scalable growth, user engagement, and profit
 
 ## Repository Contents
 - `README.md` – Repository documentation and case study details  
-- `PuzzleGame_LaunchAnalysis.pdf` – Full case study report with figures  
+- `PuzzleGame_LaunchAnalysis.pdf` – Full case study report with figures
+- `Mobilegames_Case_Study` – Case Study
 
 ---
 
