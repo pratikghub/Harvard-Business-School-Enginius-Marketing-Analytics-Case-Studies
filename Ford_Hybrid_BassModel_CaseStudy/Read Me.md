@@ -176,8 +176,8 @@ Three scenarios modeled:
 ## Repository Contents
 
 - `README.md` – Repository documentation and case study details  
-- `FordHybridForecast_RawReport.pdf` – Original report  
-- `FordHybrid_BassModelAnalysis.pdf` – Final formatted case study  
+- `FordHybridForecast_CaseStudy.pdf` – Case Study
+- `FordHybrid_BassModelAnalysis.pdf` – Case Study Report  
 
 ---
 
