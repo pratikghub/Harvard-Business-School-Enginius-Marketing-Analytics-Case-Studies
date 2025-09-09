@@ -1,6 +1,6 @@
-# Robinhood GME Sentiment Analysis (2021)
+# Case Study Title : Robinhood GME Sentiment Analysis 
 
-##  Project Overview
+##  Case Study Overview
 This case study investigates **public sentiment, emotions, and discourse evolution** surrounding **Robinhood’s role in the GameStop (GME) short squeeze of January 2021**. Leveraging **Twitter-based text analytics**, the analysis examines how user perceptions shifted **Before, During, and After** the trading restrictions imposed by Robinhood.  
 
 The goal is to generate **evidence-based insights** to inform strategies on **trust rebuilding, crisis communication, and platform improvement** in the wake of reputational and regulatory challenges.  
@@ -43,7 +43,7 @@ The analysis applied a structured **three-phase text mining pipeline** using the
 
 ---
 
-## � Key Findings
+##  Key Findings
 
 ### Phase 1: **Before the Surge**
 - Discourse: Promotional & opportunity-seeking → stocks, trading tips, crypto.  
@@ -82,7 +82,7 @@ The analysis applied a structured **three-phase text mining pipeline** using the
 
 ##  Tools & Techniques
 - **Enginius** – Text analytics (sentiment, emotion, topic modeling)  
-- **Lexicons:** NRC Emotion Lexicon, Bing Sentiment Dictionary  
+- **Corpus:** For sentiment and emotion analysis, the **Eniginius inbuilt corpus** was utilized. No external lexicons (e.g., NRC, Bing) were applied in this case study.
 - **Analytics Methods:** Word Clouds, RAKE, Co-occurrence, Topic Modeling, POS Tagging  
 
 ---
