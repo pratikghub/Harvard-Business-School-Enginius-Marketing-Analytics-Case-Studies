@@ -10,6 +10,20 @@ The goal is to generate **evidence-based insights** to inform strategies on **tr
 # Author: 
 Pratik Ganguli
 
+---
+
+## Problem Statement  
+
+In January 2021, Robinhood faced a severe **trust and reputational crisis** during the GameStop (GME) short squeeze when it imposed **trading restrictions** on retail investors.  
+This move sparked intense **public backlash**, with accusations of siding with hedge funds and undermining market fairness.  
+The lack of transparent communication amplified **user frustration, regulatory scrutiny, and reputational damage**.  
+
+Understanding how public **sentiment, emotions, and discourse evolved across the Before–During–After phases** is critical to addressing questions such as:  
+- How did perceptions of Robinhood shift during the crisis?  
+- Which emotions and themes dominated discourse at each stage?  
+- What actionable strategies can be derived for **trust rebuilding, crisis management, and long-term platform credibility**?
+  
+---
 
 ##  Research Objectives
 1. **Sentiment & Emotion Evolution**  
